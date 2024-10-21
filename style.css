@@ -15,10 +15,31 @@ main {
     align-items: center;
     min-height: 100vh;
 }
-
+.post{
+    width: 25vw;
+    border: solid 0.2px;
+    border-radius: 1.2vw;
+    padding: 12px;
+}
+.post-list{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
 @media(max-width: 475px) {
     main {
         background-color: red;
+    }
+    .post {
+        width: fit-content;
+        padding: 5px;
+    }
+
+    .post-list {
+        flex-direction: column;
+        gap: 2rem;
+        padding: 12px
     }
 }
 
@@ -28,6 +49,16 @@ main {
         background-color: green;
         color: yellow;
     }
+    .post {
+        width: fit-content;
+        padding: 5px;
+    }
+
+    .post-list {
+        flex-direction: column;
+        gap: 2rem;
+        padding: 12px
+    }
 
 }
 
@@ -36,6 +67,17 @@ main {
         font-size: 18px;
         background-color: orange;
         color: navy;
+    }
+    .post {
+        width: 35vw;
+        padding: 10px;
+    }
+
+    .post-list {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        gap: 1rem;
     }
 }
 
