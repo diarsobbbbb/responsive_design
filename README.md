@@ -1,6 +1,6 @@
-# HTML Basics Project
+# Responsive Design
 
-Welcome to your first HTML project.
+Responsive design provides a generally consistent experience across all devices for all users. In this exercise, you will create a blog post list page and style it differently based on the device size using css media query.
 
 ## Getting Started
 
@@ -14,8 +14,8 @@ Make sure you have **Node.js** and **npm** installed on your system. You can dow
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/brookCITS/1_Intro-to-HTML.git
-   cd 1_Intro-to-HTML
+   git clone https://github.com/brookCITS/responsive_design.git
+   cd responsive_design
    ```
 2. **Install Dependencies**
 
@@ -37,4 +37,4 @@ Make sure you have **Node.js** and **npm** installed on your system. You can dow
 
 4. **Editing the Project**
 
-- Open index.html and make changes. The browser will automatically refresh with your updates
+- Open index.html and style.css to make changes. The browser will automatically refresh with your updates
